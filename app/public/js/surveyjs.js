@@ -21,7 +21,5 @@ $('#submitButton').on('click', function(event) {
       .done(function(data) {
           $('#userMatch').html(data.matchName);
         $("#userMatchImage").attr("src", data.matchImage);
-
-          $('#modal').modal('open');
       });
 });
