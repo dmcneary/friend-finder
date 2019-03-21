@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -23,152 +23,157 @@
     <main class="container">
         <div class="row">
             <div class="jumbotron bg-warning mt-5">
-                    <h1>Survey Questions</h1>
+                <h1>Survey Questions</h1>
 
-                    <h3>About You</h3>
+                <h3>About You</h3>
                 <!--change classes to BS -->
-                    <div class="input-field">
-                        <h5>Name (Required)</h5>
-                        <i class="material-icons prefix">account_circle</i>
-                        <input type="text" class="validate" placeholder="Your Name Here" id="userName">
-                    </div>
+                <div class="input-group mb-3">
+                    <p>Name (Required)</p>
+                    <input type="text" class="form-control" placeholder="Your Name Here" id="userName">
+                </div>
 
-                    <div class="input-field col s6">
-                        <h5>Link to Photo Image (Required)</h5>
-                        <i class="material-icons prefix">picture_in_picture</i>
-                        <input type="text" class="validate" placeholder="Photo Link Here" id="userPhoto">
-                    </div>
+                <div class="input-group mb-3">
+                    <p>Link to Photo Image (Required)</p>
+                    <input type="text" class="form-control" placeholder="Photo Link Here" id="userPhoto">
+                    <p>(paste your LinkedIn or Facebook profile picture URL!)</p>
+                </div>
 
-                    <!-- Survey Questions -->
-                    <div class="input-field col s12">
-                        <h3>Question 1</h3>
-                        <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
-                        <select id="question1">
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">1 (Strongly Disagree)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Strongly Agree)</option>
-                        </select>
-                    </div>
+                <!-- Survey Questions -->
+                <div class="input-group mb-3">
+                    <h3>Question 1</h3>
+                    <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+                    <select id="question1">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
 
-                    <div class="input-field col s12">
-                        <h3>Question 2</h3>
-                        <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
-                        <select id="question2">
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">1 (Strongly Disagree)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Strongly Agree)</option>
-                        </select>
-                    </div>
+                <div class="input-group mb-3">
+                    <h3>Question 2</h3>
+                    <p>Generally speaking, you rely more on your experience than your imagination.</p>
+                    <select id="question2">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
 
-                    <div class="input-field col s12">
-                        <h3>Question 3</h3>
-                        <h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
-                        <select id="question3">
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">1 (Strongly Disagree)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Strongly Agree)</option>
-                        </select>
-                    </div>
+                <div class="input-group mb-3">
+                    <h3>Question 3</h3>
+                    <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+                    <select id="question3">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
 
-                    <div class="input-field col s12">
-                        <h3>Question 4</h3>
-                        <h5>You rarely do something just out of sheer curiosity.</h5>
-                        <select id="question4">
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">1 (Strongly Disagree)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Strongly Agree)</option>
-                        </select>
-                    </div>
+                <div class="input-group mb-3">
+                    <h3>Question 4</h3>
+                    <p>You rarely do something just out of sheer curiosity.</p>
+                    <select id="question4">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
 
-                    <div class="input-field col s12">
-                        <h3>Question 5</h3>
-                        <h5>People can rarely upset you.</h5>
-                        <select id="question5">
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">1 (Strongly Disagree)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Strongly Agree)</option>
-                        </select>
-                    </div>
+                <div class="input-group mb-3">
+                    <h3>Question 5</h3>
+                    <p>People can rarely upset you.</p>
+                    <select id="question5">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
 
-                    <div class="input-field col s12">
-                        <h3>Question 6</h3>
-                        <h5>It is often difficult for you to relate to other people’s feelings.</h5>
-                        <select id="question6">
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">1 (Strongly Disagree)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Strongly Agree)</option>
-                        </select>
-                    </div>
+                <div class="input-group mb-3">
+                    <h3>Question 6</h3>
+                    <p>It is often difficult for you to relate to other people’s feelings.</p>
+                    <select id="question6">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
 
-                    <div class="input-field col s12">
-                        <h3>Question 7</h3>
-                        <h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
-                        <select id="question7">
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">1 (Strongly Disagree)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Strongly Agree)</option>
-                        </select>
-                    </div>
+                <div class="input-group mb-3">
+                    <h3>Question 7</h3>
+                    <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+                    <select id="question7">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
 
-                    <div class="input-field col s12">
-                        <h3>Question 8</h3>
-                        <h5>You rarely get carried away by fantasies and ideas.</h5>
-                        <select id="question8">
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">1 (Strongly Disagree)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Strongly Agree)</option>
-                        </select>
-                    </div>
+                <div class="input-group mb-3">
+                    <h3>Question 8</h3>
+                    <p>You rarely get carried away by fantasies and ideas.</p>
+                    <select id="question8">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
 
-                    <div class="input-field col s12">
-                        <h3>Question 9</h3>
-                        <h5>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h5>
-                        <select id="question9">
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">1 (Strongly Disagree)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Strongly Agree)</option>
-                        </select>
-                    </div>
+                <div class="input-group mb-3">
+                    <h3>Question 9</h3>
+                    <p>You think that everyone’s views should be respected regardless of whether they are supported by
+                        facts or not.</p>
+                    <select id="question9">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
 
-                    <div class="input-field col s12">
-                        <h3>Question 10</h3>
-                        <h5>You feel more energetic after spending time with a group of people.</h5>
-                        <select id="question10">
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">1 (Strongly Disagree)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Strongly Agree)</option>
-                        </select>
-                    </div>
+                <div class="input-group mb-3">
+                    <h3>Question 10</h3>
+                    <p>You feel more energetic after spending time with a group of people.</p>
+                    <select id="question10">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-primary" type="submit" name="action" data-toggle="modal" data-target="#modal" id="submitButton">
+                        Find Your Match!
+                    </button>
+                </div>
             </div>
         </div>
     </main>
@@ -188,18 +193,38 @@
             </li>
         </ul>
     </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Your match:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5 id="userMatch"></h5>
+                    <img id="userMatchImage" src="">
+                </div>
+                <div class="modal-footer">
+                        <a href="/survey">Match Again!</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="js/surveyjs.js"></script>
 </body>
 
 </html>
