@@ -6,4 +6,4 @@ Friend Finder collects users, their pictures, and scores based on a survey. The 
 
 Currently users are stored locally, but the app could be easily scaled to an external database.
 
-!(screen.JPG)
+![Screenshot](screen.JPG)
