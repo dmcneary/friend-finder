@@ -1,5 +1,4 @@
 var friends = require('../data/friends.js');
-var path = require("path");
 
 module.exports = function(app) {
 	app.get('/api/friends', function(req, res) {
@@ -8,7 +7,6 @@ module.exports = function(app) {
 
 	app.post('/api/friends', function(req, res) {
         var formVals = req.body;
-        
 		var responses = formVals.scores;
 		var matchName = '';
 		var matchImage = '';
